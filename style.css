@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0;
+    padding: 18px 8%;
+    align-items: center;
+}
+
+div{
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+
+.common-btn{
+    background-color: #3B82F6;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: none;
+}
+
+header{
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
+height: 60vh;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.header-content{
+    color: white;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+.header-content button{
+    width: 20%;
+    margin-left: 38%;
+}
