@@ -224,7 +224,7 @@ color: #FFFF;
 
 
 .venue{
-    background:#0d1117;
+    background: white;
     color:#fff;
     padding:100px 10%;
 }
@@ -249,7 +249,7 @@ color: #FFFF;
 }
 
 .venue-text p{
-    color:#cbd5e1;
+    color:black;
     line-height:1.8;
 }
 
@@ -261,7 +261,7 @@ color: #FFFF;
 }
 
 .info-box{
-    background:#161b22;
+    background:#0d1117;
     padding:20px;
     border-radius:10px;
     border:1px solid rgba(255,255,255,.08);
@@ -326,3 +326,15 @@ color: #FFFF;
 
 }
 
+footer{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+  padding: 30px;
+  margin-bottom: 40px;
+  background: #0D1B3A;
+}
+.c{
+  color: #575757;
+}
