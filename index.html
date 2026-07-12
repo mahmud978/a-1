@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+
+    <!--google font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+ 
+<!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
         <nav class="container">
@@ -27,7 +35,7 @@
 
         <!--hero section st-->
         <header>
-            <div class="header-content">
+            <div class="header-content container">
                 <h1>Code. Connect. Create</h1>
                 <p>Join 4,000+ engineers, founders, and builders at the premier developer <br>conference of 2026. Three days of cutting-edge
                 talks, hands-on workshops, <br>and meaningful connections.</p>
@@ -43,25 +51,25 @@
             <section class="try-middle container">
                 <h2>Meet the speakers</h2>
                 <div class="speaker-section">
-                    <div class="speaker-card">
+                    <div class="speaker-photo">
                         <img src="./assets/andrej.png" alt="">
                         <h5>AI / ML</h5>
                         <h3>Andrej Karpathy</h3>
                         <h4>Pretraining team, Anthropic</h4>
                     </div>
-                    <div class="speaker-card">
+                    <div class="speaker-photo">
                         <img src="./assets/demis.png" alt="">
                         <h5>Cloud & DevOps</h5>
                         <h3>Demis Hassabis</h3>
                         <h4>Co-Founder and CEO, Google DeepMind</h4>
                     </div>
-                    <div class="speaker-card">
+                    <div class="speaker-photo">
                         <img src="./assets/gary.png" alt="">
                         <h5>Frontend</h5>
                         <h3>Gary Marcus</h3>
                         <h4>Staff Engineer, Vercel</h4>
                     </div>
-                    <div class="speaker-card">
+                    <div class="speaker-photo">
                         <img src="./assets/mustafa.png" alt="">
                         <h5>Security</h5>
                         <h3>Mustafa Suleyman</h3>
@@ -75,34 +83,30 @@
 
 
                 <!--Secure section start-->
-
-                <section class="secure-root container">
-                    <div class="secure-title">
+                <section class="s-section container">
                     <h2>Secure Your Spot</h2>
                     <p>Early-bird pricing ends August 15, 2026.</p>
+                
+                <div class="s-card-container">
+                    <div class="s-price">
+                    <p>Standard</p>
+                    <h2>$399</h2>
+                    <p>per person</p>
+                    <ul class="list">
+                        <li>Access to all 3 conference days</li>
+                        <li>48 curated technical talks</li>
+                        <li>2 workshop sessions</li>
+                        <li>Networking lunch & coffee breaks</li>
+                        <li>Conference swag bag</li>
+                        <li>Digital recordings (30 days)</li>
+                    </ul>
+                    <button class="buy-btn">Get Standard</button>
                     </div>
-                    <div class="card-root">
-                    <div class="card">
-                        <p>Standard</p>
-                        <h2>$399</h2>
-                        <p>per person</p>
-                        <hr>
-                        <ul>
-                            <li>Access to all 3 conference days</li>
-                            <li>48 curated technical talks</li>
-                            <li>2 workshop sessions</li>
-                            <li>Networking lunch & coffee breaks</li>
-                            <li>Conference swag bag</li>
-                            <li>Digital recordings (30 days)</li>
-                        </ul>
-                        <button class="card-btn common-btn">Get Standard</button>
-                    </div>
-                    <div class="card card2">
-                        <p class="h-pro">PRO</p>
+                    <div class="s-price-pro">
+                        <p>Pro</p>
                         <h2>$749</h2>
                         <p>per person</p>
-                        <hr>
-                        <ul>
+                        <ul class="list">
                             <li>Everything in Standard</li>
                             <li>Unlimited workshop access</li>
                             <li>Speaker meet & greet</li>
@@ -110,15 +114,13 @@
                             <li>Lifetime recording access</li>
                             <li>1-on-1 mentorship (30 min)</li>
                         </ul>
-                        <button class="card-btn card-btn2
-                        common-btn">Get Pro</button>
+                        <button class="buy-btn-pro">Get Pro</button>
                     </div>
-                    <div class="card">
+                    <div class="s-price">
                         <p>Team</p>
                         <h2>$5,999</h2>
                         <p>up to 10 people</p>
-                        <hr>
-                        <ul>
+                        <ul class="list">
                             <li>Everything in Pro (10 seats)</li>
                             <li>Dedicated team lounge access</li>
                             <li>Private workshop booking</li>
@@ -126,11 +128,11 @@
                             <li>Recruitment booth (1 day)</li>
                             <li>Priority customer support</li>
                         </ul>
-                        <button class="card-btn card-btn3 common-btn">Contact Us</button>
+                        <button class="buy-btn-a">Contact Us</button>
                     </div>
-                    </div>
+                </div>
                 </section>
-
+     
                 <!--Secure section end-->
 
 
@@ -187,18 +189,26 @@
 </section>
 
 
+
  <!--Venue / Location end-->
 
 <!--footer start-->
-<footer class="container"
-    <div><img src="./assets/footer-logo.png" alt="">
-        <p class="c">© 2026 DevConf. All rights reserved.</p>
+<footer>
+    <div class="f-logo container">
+        <img src="./assets/footer-logo.png" alt="">
+         <p>© 2026 DevConf. All rights reserved.
+        </p>
     </div>
-    
-        <P class="c">Privacy Policy</P>
-        <P class="c">Terms of Service</P>
-    
+    <div class="f-logo-a">
+        <span><i class="fa-brands fa-facebook" style="color: rgb(120, 145, 255);"></i></span>
+        <samp><i class="fa-brands fa-instagram" style="color: rgb(120, 145, 255);"></i></samp>
+        <samp><i class="fa-brands fa-twitter" style="color: rgb(120, 145, 255);"></i></samp>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+        </div>
+        </div>
 </footer>
+
 
 </body>
 </html>
