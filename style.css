@@ -20,7 +20,7 @@ nav{
 div{
     justify-content: center;
 }
-ul{
+nav ul{
     display: flex;
     justify-content: center;
     list-style: none;
@@ -28,7 +28,7 @@ ul{
     align-items: center;
 }
 
-ul li a{
+nav ul li a{
     text-decoration: none;
     color: #575757;
 }
@@ -46,7 +46,7 @@ ul li a{
 
 header{
 background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/banner.jpg);
-height: 60vh;
+height: 90vh;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -63,13 +63,15 @@ color: #FFFF;
 }
 .header-content button{
     width: 30%;
-    margin-left: 30%;
+    margin-left: 34%;
+    margin-top: 33%;
 }
 .header-content p{
     color: #ffffff91;
 }
-
-
+.header-content h1{
+    font-size: 80px;
+}
 
 
 .speaker-section{
@@ -117,6 +119,11 @@ color: #FFFF;
   margin: 120px auto;
   text-align: center;
 }
+.s-section h1{
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
 .s-card-container{
   margin-top: 20px;
   margin-bottom: 20px;
@@ -126,17 +133,28 @@ color: #FFFF;
   padding: 25px;
   color: #333333;
 }
+.s-section h2{
+    text-align: left;
+}
+.s-card-container p{
+    text-align: left;
+}
 .s-card-container,.s-price{
   border: 1px solid #E5E7EB;
-  padding: 8px;
+  padding: 35px;
+  padding-left: 35px;
   border-radius: 10px; 
   margin: 20px 0;
 }
 .s-card-container,.s-price-pro{
   border: 1px solid white;
   border-radius: 10px;
-  padding: 8px;
+  padding: 35px;
+  padding-left: 35px;
   margin: 20px 0;
+}
+.s-price-pro,.blue{
+    color: #93C5FD;
 }
 .s-price-pro{
   background-color: #0D1B2A;
@@ -148,82 +166,53 @@ color: #FFFF;
   color: #1D4ED8;
   border: 1px solid #1D4ED8;
   margin-top: 15px;
-  font-size: 10px;
-  width: 200px;
-  border-radius: 12px;
+  font-size: 15px;
+  width: 300px;
+  border-radius: 9px;
   cursor: pointer;
   padding: 10px 20px;
 }
 .buy-btn-pro{
   padding: 10px 20px;
-  border-radius: 12px;
+  border-radius: 9px;
   font-weight: bold;
-  font-size: 10px;
+  font-size: 15px;
   color: white;
   border: none;
   cursor: pointer;
-  margin-top: 15px;
-  width: 200px;
+  margin-top: 21px;
+  width: 300px;
   background-color: #3B82F6;
 }
 .buy-btn-a{
-  color: #575757;
+  color: #0D1B2A;
+  background-color: white;
   border: 1px solid #575757;
   border-radius: 12px;
   margin-top: 15px;
-  font-size: 10px;
-  width: 200px;
+  font-size: 15px;
+  width: 300px;
   padding: 10px 20px;
   cursor: pointer;
 }
 .s-price ul{
   display: flex;
   flex-direction: column;
+  gap: 14px;
 }
-.s-price ul li{
-text-align: left;
-}
+
 .s-price-pro ul{
   display: flex;
   flex-direction: column;
+  gap: 14px;
+}
+.list li{
+    text-align: left;    
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Venue Section */
+/* Venue Section make by AI */
 
 .venue{
     padding:100px 8%;
@@ -364,6 +353,10 @@ footer{
   justify-content: space-between;
   gap: 10px;
   color:#ffffff44 ;
+}
+.down{
+    display: flex;
+    justify-content: space-between;
 }
 
 
