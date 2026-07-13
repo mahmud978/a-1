@@ -65,6 +65,9 @@ color: #FFFF;
     width: 30%;
     margin-left: 34%;
     margin-top: 33%;
+    font-size: 20px;
+    height: 75px;
+    background-color: #1D4ED8;
 }
 .header-content p{
     color: #ffffff91;
@@ -72,6 +75,9 @@ color: #FFFF;
 .header-content h1{
     font-size: 80px;
 }
+
+
+
 
 
 .speaker-section{
@@ -109,6 +115,9 @@ color: #FFFF;
   padding-top: 15px;
   padding-left: 25px;
 }
+
+
+
 
 
 .s-section{
@@ -342,17 +351,14 @@ footer{
   gap: 15px;
 }
 .f-logo{
-  color: #ffffff44;
+    color: #ffffff42;
 }
+
 .f-logo-a{
   display: flex;
   justify-content: space-between;
   gap: 10px;
   color:#ffffff44 ;
-}
-.down{
-    display: flex;
-    justify-content: space-between;
 }
 
 
