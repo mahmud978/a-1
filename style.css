@@ -93,25 +93,21 @@ color: #FFFF;
     border-radius: 8px 8px 0 0;   
 }
 .speaker-section h5{
-    font-size: 20px;
-    color: #0D1B3A;
-}
-.speaker-section h5 {
     font-size: 12px;
     color: #2563EB;
 }
 .speaker-section h3{
-    font-size: 20px;
+    font-size: 22px;
     color: #0D1B2A;
 }
 .speaker-section h4{
     color: #5757;
     font-size: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 .speaker-photo h5, .speaker-photo h4, .speaker-photo h3{
-  padding-top: 10px;
-  padding-left: 20px;
+  padding-top: 15px;
+  padding-left: 25px;
 }
 
 
